@@ -12,6 +12,7 @@ This repository contains lectures and useful resource for the class of Hyper Isl
 
 # Building Websites
 * [Can I Use](https://caniuse.com/) (what html/css/js is supported in different browsers)
+* [Nice Typography](https://fonts.google.com/) - Google Web Fonts, easy to include in your HTML document
 
 # Slides
 * [Intro - Why building silly things is important](https://slides.com/abergs/deck)
