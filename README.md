@@ -14,6 +14,6 @@ This repository contains lectures and useful resource for the class of Hyper Isl
 * [Can I Use](https://caniuse.com/) (what html/css/js is supported in different browsers)
 
 # Slides
-[Intro - Why building silly things is important](https://slides.com/abergs/deck)
-[How do I get on the Internet?](http://slides.com/abergs/deck-1)
+* [Intro - Why building silly things is important](https://slides.com/abergs/deck)
+* [How do I get on the Internet?](http://slides.com/abergs/deck-1)
 
