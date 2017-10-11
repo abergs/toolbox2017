@@ -17,3 +17,8 @@ This repository contains lectures and useful resource for the class of Hyper Isl
 * [Intro - Why building silly things is important](https://slides.com/abergs/deck)
 * [How do I get on the Internet?](http://slides.com/abergs/deck-1)
 
+# Collaborating with Github
+GitHub has a lot of features, so I would recommend following these guides to learn more about how to collaborate on code and understanding more about "Git" and version control for code.
+[GitHub Guides](https://guides.github.com/)
+
+
