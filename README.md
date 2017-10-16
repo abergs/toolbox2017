@@ -16,6 +16,10 @@ This repository contains lectures and useful resource for the class of Hyper Isl
 * [Nice Typography](https://fonts.google.com/) - Google Web Fonts, easy to include in your HTML document
 * [Web font inspiration](http://tobiasahlin.com/typesource/)
 
+# Building APIs
+* [What is an API? Video](https://www.youtube.com/watch?v=s7wmiS2mSXY&sns=fb)
+* [List of Public APIs](https://github.com/toddmotto/public-apis/blob/master/README.md)
+
 # Slides
 * [Intro - Why building silly things is important](https://slides.com/abergs/deck)
 * [How do I get on the Internet?](http://slides.com/abergs/deck-1)
