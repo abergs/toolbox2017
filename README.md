@@ -8,7 +8,7 @@ This repository contains lectures and useful resource for the class of Hyper Isl
 * [Learning Html and CSS Advanced](https://learn.shayhowe.com/advanced-html-css/)
 * [A guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [A Complete guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* Marias Slides from the Lecture (Pending)
+* [Marias Slides from the Lecture](https://1drv.ms/p/s!Al01xHfPT5gBoK0XnKfUJD6hxGPiqg)
 
 
 # Building Websites
