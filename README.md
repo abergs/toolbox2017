@@ -15,10 +15,12 @@ This repository contains lectures and useful resource for the class of Hyper Isl
 * [Can I Use](https://caniuse.com/) (what html/css/js is supported in different browsers)
 * [Nice Typography](https://fonts.google.com/) - Google Web Fonts, easy to include in your HTML document
 * [Web font inspiration](http://tobiasahlin.com/typesource/)
+* [Web Font calculator](http://type-scale.com/) - Helps you pick font-size using the rule of golden ratio
 
 # Building With APIs
 * [What is an API? Video](https://www.youtube.com/watch?v=s7wmiS2mSXY&sns=fb)
 * [List of Public APIs](https://github.com/toddmotto/public-apis/blob/master/README.md)
+* [List of more Fun APIs](https://apilist.fun/)
 
 
 # Slides
@@ -37,4 +39,7 @@ GitHub has a lot of features, so I would recommend following these guides to lea
 
 # Other Stuff
 * [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij?hl=en) - Chrome Extension that will show you what tracking scripts are used on the webpages you visist.
+* [RAW graphs](http://app.rawgraphs.io/) - Automatic graphs and data exploration tool
+* [Chart.js](http://www.chartjs.org/) - A good way to make charts in Javascript
+* [Chartist](https://gionkunz.github.io/chartist-js/) - Another way to make charts in JS
 
