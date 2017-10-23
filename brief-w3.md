@@ -1,5 +1,5 @@
 # Brief: Data is powerful once people understand it.
-Use your coding skills to visualize data.
+I know what you are thinking... FINALLY! DATA!! Right?! In this brief, you should use your coding skills to visualize data.
 
 ## In this brief you should:
 * *(Leave feedback on the first two weeks: https://goo.gl/forms/imtDzLeGHMFGZmzr1)*
