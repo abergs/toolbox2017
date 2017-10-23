@@ -2,6 +2,7 @@
 Use your coding skills to visualize data.
 
 ## In this brief you should:
+* *(Leave feedback on the first two weeks: https://goo.gl/forms/imtDzLeGHMFGZmzr1)*
 * Pick any topic you find interesting.
 * Create a website on that topic.
 * Find and visualize data using a chart (using e.g. Chart.js) on the website.
