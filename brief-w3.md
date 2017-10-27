@@ -21,6 +21,7 @@ Your presentation:
     1. Show off and present what you built
     2. Go through the code and explain how it works and what your biggest struggle was and how you solved it.
 * Send me a short version of your presentation:
-    1. A link to your project.
-    2. What it is.
-    3. Short summary how you made it work and was your biggest struggle / how you solved it.
+    1. Email to "anders@andersaberg.com", start ubject with "dds19"
+    2. A link to your project.
+    3. What it is.
+    4. Short summary how you made it work and was your biggest struggle / how you solved it.
