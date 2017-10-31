@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookies example</title>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <p>I will store some information in a cookie and show what I've stored...</p>
+    
+    <a href="?startpage">Start page</a>
+    <a href="?page1">Page 1</a>
+    <a href="?page2">Page 2</a>
+    <a href="?page3">Page 3</a>
+    
+    <p>The time and date your first visited this page: <span id="firstVisit"></span>.</p>
+    <p id="seconds-container">Your spent <span id="seconds"></span> seconds during that visit, and <span id="secondstotal"></span> seconds in total over all visits.</p>
+    <p>You visited these different pages:</p>
+    <ul id="visitedPages"></ul>
+
+    <button onClick="clearCookies()">Remove all the cookies (and then refresh page)</button>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script>
+        function clearCookies() {
+            Cookies.remove("firstVisit");
+            Cookies.remove("pagesVisited");
+            Cookies.remove("seconds");
+            Cookies.remove("secondstotal");
+        }
+
+        Cookies.defaults.expires = 7;
+        var byId = document.getElementById.bind(document);
+        var firstVisit = Cookies.get("firstVisit");
+        var isFirstVisit = false;
+        
+        if(!firstVisit) {
+            isFirstVisit = true;
+            firstVisit = new Date();
+            Cookies.set("firstVisit", firstVisit);
+        }
+        
+        byId("firstVisit").innerText = firstVisit;
+
+        var pagesVisited = Cookies.getJSON("pagesVisited");
+        if(!pagesVisited) pagesVisited = [];
+
+        var currentPage = "startpage";
+        if(window.location.search) currentPage = window.location.search.substr(1);
+        pagesVisited.push(currentPage);
+        Cookies.set("pagesVisited", pagesVisited);
+
+        var counts = {};
+        pagesVisited.forEach(function(x) { counts[x] = (counts[x] || 0)+1; });
+
+        var list = byId("visitedPages");
+        Object.keys(counts).forEach(function (key) {
+            list.innerHTML += "<li>" + key +": " + counts[key] + " visits</li>";
+        });
+
+        setInterval(function () {
+            if(isFirstVisit) {
+                var lastValue = Cookies.get("seconds") || 0;
+                lastValue = parseInt(lastValue);
+                lastValue += 1;
+                Cookies.set("seconds", lastValue);
+            }
+            byId("seconds").innerText = Cookies.get("seconds");
+
+            // total
+            var totalValue = Cookies.get("secondstotal") || 0;
+            totalValue = parseInt(totalValue);
+            totalValue += 1;
+            Cookies.set("secondstotal", totalValue);
+            byId("secondstotal").innerText = totalValue;
+        
+        }, 1000);
+    </script>
+</body>
+</html>
